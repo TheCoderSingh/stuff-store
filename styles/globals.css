@@ -2,6 +2,7 @@
 
 body {
   margin: 0;
+  font-family: "Raleway", sans-serif;
 }
 
 .header {
@@ -15,8 +16,7 @@ body {
 .header a {
   text-decoration: none;
   color: #fff;
-  font-family: monospace;
-  font-family: "Raleway", sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 1.4em;
 }
 
@@ -31,6 +31,26 @@ body {
 
 .header svg {
   color: #fff;
+}
+
+.suggestions {
+  background-color: #2a2a2a;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.suggestions ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.suggestions ul li {
+  color: #fff;
+  font-size: 0.8em;
 }
 
 @media only screen and (max-width: 700px) {

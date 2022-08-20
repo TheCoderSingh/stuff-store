@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Header } from "../components";
+import { Header, Suggestions } from "../components";
 
 const Home = () => (
   <div>
@@ -12,6 +12,10 @@ const Home = () => (
     <header>
       <Header />
     </header>
+
+    <main>
+      <Suggestions />
+    </main>
   </div>
 );
 
