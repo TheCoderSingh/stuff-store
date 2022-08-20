@@ -1,13 +1,18 @@
 import Head from "next/head";
+import { Header } from "../components";
 
-export default function Home() {
-  return (
-    <div>
-      <Head>
-        <title>Stuff Store</title>
-        <meta name="description" content="Stuff Store" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-    </div>
-  );
-}
+const Home = () => (
+  <div>
+    <Head>
+      <title>Stuff Store</title>
+      <meta name="description" content="Stuff Store" />
+      <link rel="icon" href="/favicon.ico" />
+    </Head>
+
+    <header>
+      <Header />
+    </header>
+  </div>
+);
+
+export default Home;
